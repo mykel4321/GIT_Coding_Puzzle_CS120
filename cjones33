@@ -1,0 +1,16 @@
+//problem
+//Build this list [A,1,B,2,C,3,D,4] and print output
+
+#include <vecctor>
+#include <string>
+
+vector<unique_ptr<char>> vec;
+vec.push_back(make_unique<char>('A'));
+vec.push_back(make_unique<char>('1'));
+vec.push_back(make_unique<char>('B'));
+vec.push_back(make_unique<char>('2'));
+vec.push_back(make_unique<char>('C'));
+vec.push_back(make_unique<char>('3'));
+vec.push_back(make_unique<char>('D'));
+vec.push_back(make_unique<char>('4'));
+cout << vec << endl;
