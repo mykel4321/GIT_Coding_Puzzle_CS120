@@ -1,0 +1,4 @@
+list1 = ['A','B','C','D']
+list2 = [1, 2, 3, 4]
+
+zip(list1, list2)
